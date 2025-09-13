@@ -1,0 +1,16 @@
+[package]
+name = "NFT-Mystery-Box"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xda0b26d992cdb61e4e28ea1965808b9e03c50ef1187edc2dedf273bef2c5d699"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
